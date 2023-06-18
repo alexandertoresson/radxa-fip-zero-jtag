@@ -48,3 +48,6 @@ First, make sure that you have bare-metal crosscompilation tools for ARM 32-bit,
 * Look into convenient ways of calling the SMC
 	* It can only be called in EL1 (kernel space) or higher
 	* There seems to exist a way to call a SMC in u-boot. Might be the easiest way without writing any code. See CMD\_SMC in <https://github.com/u-boot/u-boot/blob/master/cmd/Kconfig>
+
+## Thanks
+* Invaluable help provided by @mambrus
